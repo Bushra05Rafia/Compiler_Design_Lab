@@ -31,7 +31,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.String_Compression_And_Decompression">
+  <component name="RunManager" selected="Python.Find_Frequency_of_SubString">
     <configuration name="Find_Frequency_of_SubString" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Compiler_Design_Lab" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -139,10 +139,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Find_Frequency_of_SubString" />
         <item itemvalue="Python.String_Compression_And_Decompression" />
         <item itemvalue="Python.Linear_Equation_Solve_Of_Multivariable" />
         <item itemvalue="Python.Linear_equation_solve_of_single_variable" />
-        <item itemvalue="Python.Find_Frequency_of_SubString" />
         <item itemvalue="Python.task" />
       </list>
     </recent_temporary>
