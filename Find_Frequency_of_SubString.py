@@ -1,29 +1,32 @@
-def count(str, sub):
-    counter = True
-    result = 0
-    x = len(str)
-    while True:
-        if counter == True:
-            findsub =''
-            for i in sub:
-                for j in range(x):
-                    if i == str[j]:
-                        print("i" ,i)
-                        findsub += str[j]
-                        print("findsub",findsub)
-                        str[j] = ''
-                        break
-                if i not in str:
-                    counter = False
-            if sub == findsub:
-                result = result + 1
-                print("result",result)
-        else: break
-    return result
+counter = 0
+def count (string, substring, x, counter):
+    while(1):
+        findsubstring = []
+        for i in substring:
+            for j in range(x):
+
+                if string[j] == i:
+                    findsubstring.append(i)
+                    print("findsub=", findsubstring)
+                    string[j] = []
+                    break
+                #print(string[j])
+
+        if substring == findsubstring:
+            #print(substring, findsubstring)
+            counter += 1
+            #print(result)
+
+        else:
+            break
+
+    return counter
 
 if __name__ == '__main__':
-    print("Enter the String: ")
-    str=list(input())
-    print("Enter the SubString: ")
-    sub=input()
-    print("Final Count=", count(str,sub))
+    print("String: ")
+    string = list(input())
+    print("SubString: ")
+    substring = list(input())
+    x = len(string)
+    result= count(string, substring, x,counter)
+    print("Count = ",result)

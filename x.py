@@ -6,36 +6,27 @@ FIRST = {}
 FOLLOW = {}
 for i in non_terminals:
     print("First",str(FIRST[i]), "Follow", str(FOLLOW[i]))
+
 terminals_no = int(input("Enter no. of terminals: "))
-print("Enter the terminals :")
 for _ in range(terminals_no):
     terminals.append(input())
-print("terminals", terminals)
 
 non_terminals_no = int(input("Enter no. of non terminals: "))
-print("Enter the non terminals :")
 for _ in range(non_terminals_no):
     non_terminals.append(input())
-print("non terminals", non_terminals)
 
 starting_symbol = input("Starting symbol: ")
 
-
 no_of_equations = int(input("Enter no of productions: "))
-print("Enter the productions:")
 for _ in range(no_of_equations):
     equations.append(input())
-print("productions",equations)
 
 for i in non_terminals:
     productions_dict[i] = []
-print("productions_dict",productions_dict)
 
 for i in equations:
     equ = i.split("->")
-    print("Nonterm_to_prod", equ)
     alternatives = equ[1].split("/")
-    print("alternatives", alternatives)
     for j in alternatives:
         productions_dict[equ[0]].append(j)
         print("productions_dict", productions_dict)
@@ -105,7 +96,6 @@ def first(string):
 for i in non_terminals:
     FIRST[i] = FIRST[i] | first(i)
     print(FIRST[i],first(i))
-
 
 for i in non_terminals:
     print(i, "-First:", str(FIRST[i]))

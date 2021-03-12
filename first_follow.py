@@ -72,49 +72,20 @@ def follow(nT):
     return follow_
 
 
+terminals = ['b','a','g','h','d']
+non_terminals = ['S','A','B','C']
+starting_symbol = input("Starting symbol: ")
+productions = [
+'S->ACB/Cbb/Ba',
+'A->da/BC',
+'B->g/@',
+'C->h/@']
 
-
-
-no_of_terminals=int(input("Enter no. of terminals: "))
-
-terminals = []
-
-print("Enter the terminals :")
-for _ in range(no_of_terminals):
-    terminals.append(input())
-
-no_of_non_terminals=int(input("Enter no. of non terminals: "))
-
-non_terminals = []
-
-print("Enter the non terminals :")
-for _ in range(no_of_non_terminals):
-    non_terminals.append(input())
-
-starting_symbol = input("Enter the starting symbol: ")
-
-no_of_productions = int(input("Enter no of productions: "))
-
-productions = []
-
-print("Enter the productions:")
-for _ in range(no_of_productions):
-    productions.append(input())
-
-
-#print("terminals", terminals)
-
-#print("non terminals", non_terminals)
-
-#print("productions",productions)
 
 
 productions_dict = {}
-
 for nT in non_terminals:
     productions_dict[nT] = []
-
-
 #print("productions_dict",productions_dict)
 
 for production in productions:
