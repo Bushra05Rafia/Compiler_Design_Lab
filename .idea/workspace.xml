@@ -22,7 +22,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Compiler_Lab_Problems" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -36,8 +36,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Overlap prefix suffix  string concatenation">
-    <configuration name="Find_Frequency_of_SubString" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.follow">
+    <configuration name="find_first" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Compiler_Design_Lab" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -49,7 +49,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Find_Frequency_of_SubString.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/find_first.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -58,7 +58,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Overlap prefix suffix  string concatenation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="first" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Compiler_Design_Lab" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -70,7 +70,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Overlap prefix suffix  string concatenation.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/first.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -79,7 +79,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="task1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="first_find" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Compiler_Design_Lab" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -91,7 +91,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/first_find.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -100,7 +100,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="task3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="follow" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Compiler_Design_Lab" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -112,7 +112,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/follow.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -121,7 +121,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="x" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="xxx" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Compiler_Design_Lab" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -133,7 +133,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/x.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xxx.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -144,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Overlap prefix suffix  string concatenation" />
-        <item itemvalue="Python.Find_Frequency_of_SubString" />
-        <item itemvalue="Python.task1" />
-        <item itemvalue="Python.task3" />
-        <item itemvalue="Python.x" />
+        <item itemvalue="Python.follow" />
+        <item itemvalue="Python.find_first" />
+        <item itemvalue="Python.xxx" />
+        <item itemvalue="Python.first" />
+        <item itemvalue="Python.first_find" />
       </list>
     </recent_temporary>
   </component>
